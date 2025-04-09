@@ -1,0 +1,141 @@
+2025-04-09 16:11:26,440 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:11:27,732 - INFO - Read Graph Time: 1290.82ms
+2025-04-09 16:11:28,439 - INFO - Component Count Time: 671.21ms
+2025-04-09 16:11:28,439 - INFO - Components: 9560
+2025-04-09 16:11:28,440 - INFO - Total Time: 1998.41ms
+2025-04-09 16:11:51,013 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:11:52,286 - INFO - Read Graph Time: 1272.61ms
+2025-04-09 16:11:52,975 - INFO - Component Count Time: 653.73ms
+2025-04-09 16:11:52,975 - INFO - Components: 9560
+2025-04-09 16:11:52,976 - INFO - Total Time: 1962.61ms
+2025-04-09 16:12:43,256 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:12:44,600 - INFO - Read Graph Time: 1344.46ms
+2025-04-09 16:12:45,347 - INFO - Component Count Time: 709.87ms
+2025-04-09 16:12:45,348 - INFO - Components: 9560
+2025-04-09 16:12:45,348 - INFO - Total Time: 2091.98ms
+2025-04-09 16:12:45,348 - INFO - ====================
+2025-04-09 16:13:00,761 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:13:02,093 - INFO - Read Graph Time: 1331.26ms
+2025-04-09 16:13:02,839 - INFO - Component Count Time: 683.39ms
+2025-04-09 16:13:02,839 - INFO - Components: 9560
+2025-04-09 16:13:02,839 - INFO - Total Time: 2077.48ms
+2025-04-09 16:13:02,839 - INFO - ==================================================
+2025-04-09 16:14:36,165 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:14:37,446 - INFO - Read Graph Time: 1280.371799992281ms
+2025-04-09 16:14:38,135 - INFO - Component Count Time: 655.5633999960264ms
+2025-04-09 16:14:38,136 - INFO - Components: 9560
+2025-04-09 16:14:38,136 - INFO - Total Time: 1970.691300011822ms
+2025-04-09 16:14:38,136 - INFO - ==================================================
+2025-04-09 16:15:29,950 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:15:31,224 - INFO - Read Graph Time: 1273.1ms
+2025-04-09 16:15:31,902 - INFO - Component Count Time: 643.8ms
+2025-04-09 16:15:31,902 - INFO - Components: 9560
+2025-04-09 16:15:31,902 - INFO - Total Time: 1951.8ms
+2025-04-09 16:15:31,902 - INFO - ==================================================
+2025-04-09 16:16:59,901 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:17:01,177 - INFO - Read Graph Time: 1275.0ms
+2025-04-09 16:17:01,865 - INFO - Component Count Time: 652.9ms
+2025-04-09 16:17:01,865 - INFO - Components: 9560
+2025-04-09 16:17:01,865 - INFO - Total Time: 1963.4ms
+2025-04-09 16:17:01,865 - INFO - ==================================================
+2025-04-09 16:18:01,844 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 16:18:07,497 - INFO - Read Graph Time: 5652.3ms
+2025-04-09 16:18:10,022 - INFO - Component Count Time: 2379.3ms
+2025-04-09 16:18:10,023 - INFO - Components: 306
+2025-04-09 16:18:10,023 - INFO - Total Time: 8178.6ms
+2025-04-09 16:18:10,023 - INFO - ==================================================
+2025-04-09 16:20:02,989 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 16:20:12,604 - INFO - Read Graph Time: 9614.1ms
+2025-04-09 16:20:16,234 - INFO - Component Count Time: 3497.1ms
+2025-04-09 16:20:16,235 - INFO - Components: 306
+2025-04-09 16:20:16,235 - INFO - Total Time: 13245.8ms
+2025-04-09 16:20:16,235 - INFO - ==================================================
+2025-04-09 16:25:39,249 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 16:25:44,866 - INFO - Read Graph Time: 5615.7ms
+2025-04-09 16:26:03,191 - INFO - Component Count Time: 18193.9ms
+2025-04-09 16:26:03,192 - INFO - Components: 306
+2025-04-09 16:26:03,192 - INFO - Total Time: 23942.4ms
+2025-04-09 16:26:03,192 - INFO - ==================================================
+2025-04-09 16:29:52,090 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-09 16:29:52,377 - INFO - Read Graph Time: 285.9ms
+2025-04-09 16:29:53,786 - INFO - Component Count Time: 1399.1ms
+2025-04-09 16:29:53,786 - INFO - Components: 222
+2025-04-09 16:29:53,786 - INFO - Total Time: 1696.0ms
+2025-04-09 16:29:53,786 - INFO - ==================================================
+2025-04-09 16:30:08,533 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-09 16:30:08,819 - INFO - Read Graph Time: 285.9ms
+2025-04-09 16:30:10,219 - INFO - Component Count Time: 1387.6ms
+2025-04-09 16:30:10,219 - INFO - Components: 222
+2025-04-09 16:30:10,219 - INFO - Total Time: 1686.0ms
+2025-04-09 16:30:10,220 - INFO - ==================================================
+2025-04-09 16:30:14,809 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-09 16:30:15,095 - INFO - Read Graph Time: 285.3ms
+2025-04-09 16:30:16,524 - INFO - Component Count Time: 1418.8ms
+2025-04-09 16:30:16,525 - INFO - Components: 222
+2025-04-09 16:30:16,525 - INFO - Total Time: 1715.6ms
+2025-04-09 16:30:16,525 - INFO - ==================================================
+2025-04-09 16:30:19,900 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-09 16:30:20,183 - INFO - Read Graph Time: 282.2ms
+2025-04-09 16:30:21,685 - INFO - Component Count Time: 1489.9ms
+2025-04-09 16:30:21,685 - INFO - Components: 222
+2025-04-09 16:30:21,685 - INFO - Total Time: 1783.9ms
+2025-04-09 16:30:21,685 - INFO - ==================================================
+2025-04-09 16:30:31,870 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-09 16:30:32,150 - INFO - Read Graph Time: 280.1ms
+2025-04-09 16:30:33,525 - INFO - Component Count Time: 1363.4ms
+2025-04-09 16:30:33,526 - INFO - Components: 222
+2025-04-09 16:30:33,526 - INFO - Total Time: 1656.2ms
+2025-04-09 16:30:33,527 - INFO - ==================================================
+2025-04-09 16:30:39,400 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-09 16:30:39,683 - INFO - Read Graph Time: 282.1ms
+2025-04-09 16:30:41,097 - INFO - Component Count Time: 1403.0ms
+2025-04-09 16:30:41,098 - INFO - Components: 222
+2025-04-09 16:30:41,098 - INFO - Total Time: 1697.4ms
+2025-04-09 16:30:41,098 - INFO - ==================================================
+2025-04-09 16:50:16,440 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 16:50:22,285 - INFO - Read Graph Time: 5845.1ms
+2025-04-09 16:50:24,673 - INFO - Component Count Time: 2239.7ms
+2025-04-09 16:50:24,673 - INFO - Components: 306
+2025-04-09 16:50:24,673 - INFO - Total Time: 8233.1ms
+2025-04-09 16:50:24,673 - INFO - ==================================================
+2025-04-09 16:50:49,452 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 16:50:50,743 - INFO - Read Graph Time: 1291.5ms
+2025-04-09 16:50:51,426 - INFO - Component Count Time: 649.0ms
+2025-04-09 16:50:51,426 - INFO - Components: 9560
+2025-04-09 16:50:51,427 - INFO - Total Time: 1974.8ms
+2025-04-09 16:50:51,427 - INFO - ==================================================
+2025-04-09 17:06:43,938 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 17:06:49,501 - INFO - Read Graph Time: 5561.2ms
+2025-04-09 17:07:06,809 - INFO - Component Count Time: 17171.6ms
+2025-04-09 17:07:06,810 - INFO - Components: 306
+2025-04-09 17:07:06,810 - INFO - Total Time: 22871.4ms
+2025-04-09 17:07:06,810 - INFO - ==================================================
+2025-04-09 17:19:11,545 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 17:19:17,165 - INFO - Read Graph Time: 5620.8ms
+2025-04-09 17:19:19,488 - INFO - Component Count Time: 2189.1ms
+2025-04-09 17:19:19,489 - INFO - Components: 306
+2025-04-09 17:19:19,489 - INFO - Total Time: 7943.6ms
+2025-04-09 17:19:19,489 - INFO - ==================================================
+2025-04-09 17:19:29,565 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 17:19:35,182 - INFO - Read Graph Time: 5616.0ms
+2025-04-09 17:19:37,491 - INFO - Component Count Time: 2175.6ms
+2025-04-09 17:19:37,491 - INFO - Components: 306
+2025-04-09 17:19:37,491 - INFO - Total Time: 7925.0ms
+2025-04-09 17:19:37,491 - INFO - ==================================================
+2025-04-09 17:40:18,960 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 17:40:25,082 - INFO - Read Graph Time: 6121.3ms
+2025-04-09 17:40:27,682 - INFO - Components: 306
+2025-04-09 17:40:27,683 - INFO - Total Time: 8721.8ms
+2025-04-09 17:40:27,683 - INFO - ==================================================
+2025-04-09 17:41:26,834 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-09 17:41:32,732 - INFO - Read Graph Time: 5898.0ms
+2025-04-09 17:41:35,298 - INFO - DFS Component Count Time: 2413.2ms
+2025-04-09 17:41:35,298 - INFO - Components: 306
+2025-04-09 17:41:35,298 - INFO - Total Time: 8465.0ms
+2025-04-09 17:41:35,298 - INFO - ==================================================
+2025-04-09 17:42:08,494 - INFO - Running Command: .\main.py.\data\Graph_ganzgross.txt
+2025-04-09 17:42:09,785 - INFO - Read Graph Time: 1290.3ms
+2025-04-09 17:42:10,448 - INFO - DFS Component Count Time: 629.4ms
+2025-04-09 17:42:10,448 - INFO - Components: 9560
+2025-04-09 17:42:10,449 - INFO - Total Time: 1954.3ms
+2025-04-09 17:42:10,449 - INFO - ==================================================
