@@ -49,10 +49,14 @@ def bfs_count(adjacency):
     for u in range(n):
         if not visited[u]:
             components += 1
+            # deques are implemented as double-linked lists and are quite efficient for appending and popping
             queue = deque([u])
             visited[u] = True
             while queue:
                 node = queue.popleft()
+                #if not visited[node]:
+                #   visited[node] = True
+                #   queue.append(adjacency[node]) 
                 for neighbor in adjacency[node]:
                     if not visited[neighbor]:
                         visited[neighbor] = True
@@ -101,7 +105,8 @@ if __name__ == "__main__":
     
     # search_method = 
     
-    components = dfs_count(adjacency)
+    # components = dfs_count(adjacency)
+    components = bfs_count(adjacency)
     
     print(f"Components: {components}")
     logging.info(f"Components: {components}")

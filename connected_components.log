@@ -139,3 +139,171 @@
 2025-04-09 17:42:10,448 - INFO - Components: 9560
 2025-04-09 17:42:10,449 - INFO - Total Time: 1954.3ms
 2025-04-09 17:42:10,449 - INFO - ==================================================
+2025-04-10 11:25:20,451 - INFO - Running Command: .\main.py.\data\Graph_gross.txt
+2025-04-10 11:25:20,688 - INFO - Read Graph Time: 235.8ms
+2025-04-10 11:25:20,840 - INFO - DFS Component Count Time: 136.3ms
+2025-04-10 11:25:20,841 - INFO - Components: 222
+2025-04-10 11:25:20,841 - INFO - Total Time: 389.2ms
+2025-04-10 11:25:20,841 - INFO - ==================================================
+2025-04-10 12:45:35,294 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 12:45:35,301 - INFO - Read Graph Time: 6.3ms
+2025-04-10 12:45:35,302 - INFO - DFS Component Count Time: 0.0ms
+2025-04-10 12:45:35,302 - INFO - Components: 2
+2025-04-10 12:45:35,302 - INFO - Total Time: 7.0ms
+2025-04-10 12:45:35,302 - INFO - ==================================================
+2025-04-10 12:53:16,712 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Graph1.txt
+2025-04-10 12:53:16,713 - INFO - Read Graph Time: 0.2ms
+2025-04-10 12:53:16,714 - INFO - DFS Component Count Time: 0.0ms
+2025-04-10 12:53:16,714 - INFO - Components: 2
+2025-04-10 12:53:16,715 - INFO - Total Time: 1.6ms
+2025-04-10 12:53:16,715 - INFO - ==================================================
+2025-04-10 12:54:42,369 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Graph1.txt
+2025-04-10 12:54:42,370 - INFO - Read Graph Time: 0.2ms
+2025-04-10 12:55:11,966 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 12:55:11,967 - INFO - Read Graph Time: 0.2ms
+2025-04-10 12:55:11,967 - INFO - BFS Component Count Time: 0.0ms
+2025-04-10 12:55:11,967 - INFO - Components: 2
+2025-04-10 12:55:11,967 - INFO - Total Time: 1.1ms
+2025-04-10 12:55:11,968 - INFO - ==================================================
+2025-04-10 13:01:20,086 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 13:01:20,087 - INFO - Read Graph Time: 0.4ms
+2025-04-10 13:01:20,088 - INFO - BFS Component Count Time: 0.2ms
+2025-04-10 13:01:20,088 - INFO - Components: 2
+2025-04-10 13:01:20,088 - INFO - Total Time: 1.6ms
+2025-04-10 13:01:20,088 - INFO - ==================================================
+2025-04-10 13:02:34,352 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Custom_Graph.txt
+2025-04-10 13:03:00,558 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Custom_Graph.txt
+2025-04-10 13:03:28,977 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Custom_Graph.txt
+2025-04-10 13:06:52,990 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Custom_Graph.txt
+2025-04-10 13:07:39,828 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Custom_Graph.txt
+2025-04-10 13:07:39,835 - INFO - Read Graph Time: 6.6ms
+2025-04-10 13:07:39,836 - INFO - BFS Component Count Time: 0.0ms
+2025-04-10 13:07:39,836 - INFO - Components: 2
+2025-04-10 13:07:39,837 - INFO - Total Time: 8.5ms
+2025-04-10 13:07:39,837 - INFO - ==================================================
+2025-04-10 13:07:54,674 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Custom_Graph.txt
+2025-04-10 13:07:54,676 - INFO - Read Graph Time: 0.2ms
+2025-04-10 13:20:22,195 - INFO - BFS Component Count Time: 747518.5ms
+2025-04-10 13:20:22,196 - INFO - Components: 2
+2025-04-10 13:20:22,197 - INFO - Total Time: 747521.4ms
+2025-04-10 13:20:22,197 - INFO - ==================================================
+2025-04-10 14:14:47,122 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Graph1.txt
+2025-04-10 14:14:47,124 - INFO - Read Graph Time: 0.3ms
+2025-04-10 14:51:49,486 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 14:51:49,487 - INFO - Read Graph Time: 0.4ms
+2025-04-10 14:51:49,487 - INFO - BFS Component Count Time: 0.0ms
+2025-04-10 14:51:49,488 - INFO - Components: 2
+2025-04-10 14:51:49,488 - INFO - Total Time: 1.0ms
+2025-04-10 14:51:49,488 - INFO - ==================================================
+2025-04-10 14:51:57,074 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 14:52:01,698 - INFO - Read Graph Time: 4622.6ms
+2025-04-10 14:52:03,899 - INFO - BFS Component Count Time: 2010.7ms
+2025-04-10 14:52:03,900 - INFO - Components: 306
+2025-04-10 14:52:03,902 - INFO - Total Time: 6825.1ms
+2025-04-10 14:52:03,902 - INFO - ==================================================
+2025-04-10 14:52:44,496 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 14:52:48,843 - INFO - Read Graph Time: 4346.6ms
+2025-04-10 14:52:50,982 - INFO - BFS Component Count Time: 1933.3ms
+2025-04-10 14:52:50,983 - INFO - Components: 306
+2025-04-10 14:52:50,983 - INFO - Total Time: 6487.1ms
+2025-04-10 14:52:50,983 - INFO - ==================================================
+2025-04-10 14:54:26,264 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 14:54:30,980 - INFO - Read Graph Time: 4715.4ms
+2025-04-10 14:54:33,266 - INFO - BFS Component Count Time: 2091.9ms
+2025-04-10 14:54:33,266 - INFO - Components: 306
+2025-04-10 14:54:33,267 - INFO - Total Time: 7002.0ms
+2025-04-10 14:54:33,267 - INFO - ==================================================
+2025-04-10 14:55:18,419 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 14:55:22,886 - INFO - Read Graph Time: 4465.7ms
+2025-04-10 14:55:42,669 - INFO - BFS Component Count Time: 19588.8ms
+2025-04-10 14:55:42,670 - INFO - Components: 306
+2025-04-10 14:55:42,671 - INFO - Total Time: 24250.6ms
+2025-04-10 14:55:42,671 - INFO - ==================================================
+2025-04-10 14:56:57,134 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Graph1.txt
+2025-04-10 14:56:57,135 - INFO - Read Graph Time: 0.3ms
+2025-04-10 15:26:20,619 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:26:20,620 - INFO - Read Graph Time: 0.4ms
+2025-04-10 15:26:20,620 - INFO - BFS Component Count Time: 0.4ms
+2025-04-10 15:26:20,621 - INFO - Components: 15
+2025-04-10 15:26:20,621 - INFO - Total Time: 1.3ms
+2025-04-10 15:26:20,621 - INFO - ==================================================
+2025-04-10 15:26:54,169 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:27:02,903 - INFO - Read Graph Time: 8728.4ms
+2025-04-10 15:27:05,340 - INFO - BFS Component Count Time: 595.9ms
+2025-04-10 15:27:05,347 - INFO - Components: 1000000
+2025-04-10 15:27:05,347 - INFO - Total Time: 11177.3ms
+2025-04-10 15:27:05,347 - INFO - ==================================================
+2025-04-10 15:28:34,152 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:28:34,153 - INFO - Read Graph Time: 0.4ms
+2025-04-10 15:29:26,353 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:29:26,354 - INFO - Read Graph Time: 0.3ms
+2025-04-10 15:30:03,108 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:30:03,111 - INFO - Read Graph Time: 0.2ms
+2025-04-10 15:30:03,111 - INFO - BFS Component Count Time: 0.1ms
+2025-04-10 15:30:03,111 - INFO - Components: 15
+2025-04-10 15:30:03,112 - INFO - Total Time: 3.4ms
+2025-04-10 15:30:03,112 - INFO - ==================================================
+2025-04-10 15:30:11,102 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:30:11,102 - INFO - Read Graph Time: 0.2ms
+2025-04-10 15:31:42,683 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Graph1.txt
+2025-04-10 15:31:42,685 - INFO - Read Graph Time: 0.3ms
+2025-04-10 15:33:19,752 - INFO - Running Command: C:\Users\abdul\VS Code\Malgo_Praktikum\Malgo_Praktikum\main.py.\data\Graph1.txt
+2025-04-10 15:33:19,754 - INFO - Read Graph Time: 0.2ms
+2025-04-10 15:38:30,365 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:38:30,366 - INFO - Read Graph Time: 0.3ms
+2025-04-10 15:38:30,366 - INFO - BFS Component Count Time: 0.0ms
+2025-04-10 15:38:30,366 - INFO - Components: 2
+2025-04-10 15:38:30,366 - INFO - Total Time: 1.1ms
+2025-04-10 15:38:30,367 - INFO - ==================================================
+2025-04-10 15:38:34,520 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:38:40,657 - INFO - Read Graph Time: 6131.1ms
+2025-04-10 15:38:43,509 - INFO - BFS Component Count Time: 2548.4ms
+2025-04-10 15:38:43,522 - INFO - Components: 306
+2025-04-10 15:38:43,523 - INFO - Total Time: 9001.5ms
+2025-04-10 15:38:43,523 - INFO - ==================================================
+2025-04-10 15:39:17,581 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:39:23,601 - INFO - Read Graph Time: 6016.5ms
+2025-04-10 15:39:46,186 - INFO - BFS Component Count Time: 22313.6ms
+2025-04-10 15:39:46,198 - INFO - Components: 306
+2025-04-10 15:39:46,199 - INFO - Total Time: 28616.8ms
+2025-04-10 15:39:46,199 - INFO - ==================================================
+2025-04-10 15:52:53,626 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:52:53,627 - INFO - Read Graph Time: 0.2ms
+2025-04-10 15:52:53,627 - INFO - BFS Component Count Time: 0.0ms
+2025-04-10 15:52:53,627 - INFO - Components: 15
+2025-04-10 15:52:53,628 - INFO - Total Time: 1.0ms
+2025-04-10 15:52:53,628 - INFO - ==================================================
+2025-04-10 15:53:15,540 - INFO - Running Command: .\main.py.\data\Graph1.txt
+2025-04-10 15:53:15,541 - INFO - Read Graph Time: 0.3ms
+2025-04-10 15:53:15,542 - INFO - BFS Component Count Time: 0.1ms
+2025-04-10 15:53:15,542 - INFO - Components: 2
+2025-04-10 15:53:15,543 - INFO - Total Time: 1.7ms
+2025-04-10 15:53:15,543 - INFO - ==================================================
+2025-04-10 15:53:17,957 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:53:22,442 - INFO - Read Graph Time: 4484.2ms
+2025-04-10 15:53:40,315 - INFO - BFS Component Count Time: 17660.8ms
+2025-04-10 15:53:40,318 - INFO - Components: 306
+2025-04-10 15:53:40,319 - INFO - Total Time: 22361.2ms
+2025-04-10 15:53:40,319 - INFO - ==================================================
+2025-04-10 15:58:39,636 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:58:44,354 - INFO - Read Graph Time: 4718.1ms
+2025-04-10 15:59:13,247 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:59:17,531 - INFO - Read Graph Time: 4283.0ms
+2025-04-10 15:59:31,579 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:59:35,775 - INFO - Read Graph Time: 4196.2ms
+2025-04-10 15:59:38,928 - INFO - BFS Component Count Time: 2959.6ms
+2025-04-10 15:59:38,962 - INFO - Components: 306
+2025-04-10 15:59:38,963 - INFO - Total Time: 7383.4ms
+2025-04-10 15:59:38,963 - INFO - ==================================================
+2025-04-10 15:59:48,150 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 15:59:52,576 - INFO - Read Graph Time: 4425.1ms
+2025-04-10 15:59:55,948 - INFO - BFS Component Count Time: 3168.6ms
+2025-04-10 15:59:55,982 - INFO - Components: 306
+2025-04-10 15:59:55,983 - INFO - Total Time: 7832.3ms
+2025-04-10 15:59:55,983 - INFO - ==================================================
+2025-04-10 16:00:00,155 - INFO - Running Command: .\main.py.\data\Graph_ganzganzgross.txt
+2025-04-10 16:00:04,638 - INFO - Read Graph Time: 4481.8ms
+2025-04-10 16:00:08,059 - INFO - BFS Component Count Time: 3225.5ms
+2025-04-10 16:00:08,096 - INFO - Components: 306
+2025-04-10 16:00:08,096 - INFO - Total Time: 7939.9ms
+2025-04-10 16:00:08,096 - INFO - ==================================================
