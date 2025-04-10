@@ -1,9 +1,13 @@
 from collections import deque
 import sys
+import os
 import logging
 import time
 from line_profiler import profile
 import numpy as np
+import pickle
+from typing import Callable
+import argparse
 
 # Set up logging
 logging.basicConfig(
@@ -14,9 +18,41 @@ logging.basicConfig(
     filemode='a'
 )
 
-def read_graph(file_path):
+def serialize_graph(adjacency, file_path):
+    # Save adjacency list to binary file for persistence
+    pkl_file = os.path.splitext(file_path)[0] + ".pkl"
+    with open(pkl_file, 'wb') as f:
+        pickle.dump(adjacency, f)
+    logging.info(f"Serialized graph to {pkl_file}")
+    
+def deserialize_graph(file_path):
+    # Load adjacency list from a cached binary file
+    pkl_file = os.path.splitext(file_path)[0] + ".pkl"
+    if os.path.exists(pkl_file):
+        with open(pkl_file, 'rb') as f:
+            return pickle.load(f)
+    return None
+
+def read_graph(file_path, use_cache=True):
     start_time = time.perf_counter()
+    
+    if use_cache:
+        # Try to load cached version first
+        adjacency = deserialize_graph(file_path)
+        if adjacency is not None:
+            elapsed = (time.perf_counter() - start_time) * 1000
+            # output = f"Loaded graph from cache {os.path.splitext(file_path)[0]}"
+            output = f"Loaded graph from cache"
+            print(output)
+            logging.info(output)
+            return adjacency
+    
+    
     # Read entire file and split into tokens
+    status = f"Reading graph from {file_path}"
+    print(status)
+    logging.info(status)
+    
     with open(file_path, 'r') as f:
         data = f.read().split()
     
@@ -31,13 +67,16 @@ def read_graph(file_path):
         adjacency[i].append(j)
         # also vice versa since undirected
         adjacency[j].append(i)
+        
+    if use_cache:
+        serialize_graph(adjacency, file_path)
     
     output = f"Read Graph Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
     print(output)
     logging.info(output)
     return adjacency
 
-@profile
+#@profile
 def bfs_count(adjacency):
     start_time = time.perf_counter()
     
@@ -92,101 +131,101 @@ def dfs_count(adjacency):
     logging.info(output)
     return components
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python main.py <graph_file>")
-        sys.exit(1)
-    
-    print(f"Running Command: {''.join(sys.argv)}")
-    logging.info(f"Running Command: {''.join(sys.argv)}")
-    
+#@profile
+def bfs(adjacency, visited, start):
+    """BFS traversal implementation"""
+    queue = deque([start])
+    visited[start] = True
+    while queue:
+        node = queue.popleft()
+        for neighbor in adjacency[node]:
+            if not visited[neighbor]:
+                visited[neighbor] = True
+                queue.append(neighbor)
+
+# @profile
+def dfs(adjacency, visited, start):
+    """DFS traversal implementation"""
+    stack = [start]
+    visited[start] = True
+    while stack:
+        node = stack.pop()
+        for neighbor in adjacency[node]:
+            if not visited[neighbor]:
+                visited[neighbor] = True
+                stack.append(neighbor)
+
+def count_components(adjacency, traversal):
     start_time = time.perf_counter()
-    adjacency = read_graph(sys.argv[1])
     
-    # search_method = 
-    
-    # components = dfs_count(adjacency)
-    components = bfs_count(adjacency)
-    
-    print(f"Components: {components}")
-    logging.info(f"Components: {components}")
-    
-    elapsed = (time.perf_counter() - start_time)*1000
-    print(f"Total Time: {elapsed:.1f}ms")
-    logging.info(f"Total Time: {elapsed:.1f}ms")
-    logging.info("="*50)
-    # print(f"Process Time: {time.process_time()}")
-'''
-
-import numpy as np
-from collections import defaultdict
-import sys
-import time
-
-def read_graph_csr(file_path):
-    """Build a CSR (Compressed Sparse Row) adjacency list."""
-    with open(file_path, 'r') as f:
-        data = f.read().split()
-    n = int(data[0])
-    edges = list(map(int, data[1:]))
-    
-    # Count neighbors for each node
-    adj = defaultdict(list)
-    for i, j in zip(edges[::2], edges[1::2]):
-        adj[i].append(j)
-        adj[j].append(i)  # Undirected
-    
-    # Build CSR arrays
-    indices = np.zeros(n + 1, dtype=np.int32)
-    edges_csr = []
-    current = 0
-    for u in range(n):
-        neighbors = adj.get(u, [])
-        edges_csr.extend(neighbors)
-        current += len(neighbors)
-        indices[u + 1] = current
-    edges_csr = np.array(edges_csr, dtype=np.int32)
-    return n, edges_csr, indices
-
-def count_components_csr(n, edges_csr, indices):
-    """BFS using CSR and list-based queue."""
-    start_time = time.perf_counter()
+    # Component counter using specified traversal algorithm
+    n = len(adjacency)
     visited = np.zeros(n, dtype=bool)
     components = 0
     
     for u in range(n):
         if not visited[u]:
             components += 1
-            queue = [u]
-            visited[u] = True
-            front = 0  # Track the front of the queue with an index
-            
-            while front < len(queue):
-                node = queue[front]
-                front += 1
-                # Get neighbors from CSR
-                start = indices[node]
-                end = indices[node + 1]
-                neighbors = edges_csr[start:end]
-                
-                for neighbor in neighbors:
-                    if not visited[neighbor]:
-                        visited[neighbor] = True
-                        queue.append(neighbor)
-    output = f"Component Count Time: {(time.perf_counter() - start_time)*1000:.1f}ms"                    
-    print(output)
+            traversal(adjacency, visited, u)
     
+    # output = f"Traversal completed using {traversal.__name__.upper()}"
+    output = f"Analysis Time: {(time.perf_counter() - start_time)*1000:.1f}ms"                    
+    print(output)
+    logging.info(output)
     return components
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python main.py <graph_file>")
         sys.exit(1)
     
-    start_time = time.time()
-    n, edges_csr, indices = read_graph_csr(sys.argv[1])
-    components = count_components_csr(n, edges_csr, indices)
-    print(f"Components: {components}")
-    print(f"Time: {time.time() - start_time:.2f}s")
+    # print(f"Running Command: {''.join(sys.argv)}")
+    # logging.info(f"Running Command: {''.join(sys.argv)}")
     
-'''
+    parser = argparse.ArgumentParser(description='P1: Connected Components')
+    parser.add_argument('input_file', help='Path to graph file')
+    parser.add_argument('-a', '--algorithm', 
+                        choices=['bfs', 'dfs'],
+                        default='bfs',
+                        help='Traversal algorithm (bfs|dfs)')
+    parser.add_argument('--no-cache', 
+                        action='store_false',
+                        dest='use_cache',
+                        help='Disable graph caching')
+    
+    args = parser.parse_args()
+    
+    # Map algorithm names to strategy functions
+    algorithms = {
+        'bfs': bfs,
+        'dfs': dfs
+    }
+    
+    
+    print(f"Counting connected components in {os.path.basename(args.input_file)} using {args.algorithm.upper()}")
+    
+    start_time = time.perf_counter()
+    #adjacency = read_graph(sys.argv[1], use_cache=True)
+    
+    adjacency = read_graph(args.input_file, use_cache=args.use_cache)
+    
+    output = f"Parsing Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
+    print(output)
+    logging.info(output)
+    
+    # search_method = 
+    
+    # components = dfs_count(adjacency)
+    # components = bfs_count(adjacency)
+    
+    components = count_components(adjacency, algorithms[args.algorithm])
+    
+    print(f"Component count: {components}")
+    logging.info(f"Component count: {components}")
+    
+    elapsed = (time.perf_counter() - start_time)*1000
+    print(f"Total Script Time: {elapsed:.1f}ms")
+    logging.info(f"Total Script Time: {elapsed:.1f}ms")
+    logging.info("="*50)
+    # print(f"Process Time: {time.process_time()}")
