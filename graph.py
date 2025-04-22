@@ -1,11 +1,18 @@
 import argparse
+from collections import deque
+import logging
 import os
 import pickle
 import sys
+import time
+
+import numpy as np
 
 
 class Graph:
     def __init__(self, directed=False, file_path=any, cached=bool):
+        
+        start_time = time.perf_counter()
         
         self.file_path = file_path
         self.cached = cached
@@ -13,13 +20,23 @@ class Graph:
         self.pickle_path = os.path.splitext(file_path)[0] + ".pkl"
         
         if self.cached and os.path.exists(self.pickle_path):
-            self.adjacency = self.deserialize_graph()
+            self.deserialize_graph()
         else:
+            status = f"Reading graph from {self.file_path}"
+            print(status)
+            logging.info(status)
             self.build_graph()
             self.serialize_graph()
+            
+        output = f"Parsing Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
+        print(output)
+        logging.info(output)
         
     def build_graph(self):
+        start_time = time.perf_counter()
         status = f"Reading graph from {self.file_path}"
+        print(status)
+        logging.info(status)
         
         with open(self.file_path, 'r') as f:
             data = f.read().split()
@@ -35,6 +52,10 @@ class Graph:
             self.adjacency[i].append(j)
             # also vice versa since undirected
             self.adjacency[j].append(i)
+            
+            output = f"Read Graph Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
+            print(output)
+            logging.info(output)
     
     def serialize_graph(self):
         with open(self.pickle_path, 'wb') as f:
@@ -52,6 +73,48 @@ class Graph:
         self.node_count = data['node_count']
         self.adjacency = data['adjacency_list']
     
+
+def bfs(adjacency, visited, start):
+    """BFS traversal implementation"""
+    queue = deque([start])
+    visited[start] = True
+    while queue:
+        node = queue.popleft()
+        for neighbor in adjacency[node]:
+            if not visited[neighbor]:
+                visited[neighbor] = True
+                queue.append(neighbor)
+   
+def dfs(adjacency, visited, start):
+    """DFS traversal implementation"""
+    stack = [start]
+    visited[start] = True
+    while stack:
+        node = stack.pop()
+        for neighbor in adjacency[node]:
+            if not visited[neighbor]:
+                visited[neighbor] = True
+                stack.append(neighbor)
+                
+def count_components(graph, traversal):
+    start_time = time.perf_counter()
+    
+    # Component counter using specified traversal algorithm
+    n = len(graph.adjacency)
+    visited = np.zeros(n, dtype=bool)
+    components = 0
+    
+    for u in range(n):
+        if not visited[u]:
+            components += 1
+            traversal(graph.adjacency, visited, u)
+    
+    # output = f"Traversal completed using {traversal.__name__.upper()}"
+    output = f"Analysis Time: {(time.perf_counter() - start_time)*1000:.1f}ms"                    
+    print(output)
+    logging.info(output)
+    return components             
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='P1: Connected Components')
     parser.add_argument('input_file', help='Path to graph file')
@@ -66,5 +129,17 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     
+    # Map algorithm names to strategy functions
+    algorithms = {
+        'bfs': bfs,
+        'dfs': dfs
+    }
     
-    g = Graph(file_path=sys.argv[1], cached=args.use_cache)
+    g = Graph(file_path=args.input_file, cached=args.use_cache)
+    print(g.adjacency)
+    
+    
+    components = count_components(g, algorithms[args.algorithm])
+    
+    print(f"Component count: {components}")
+    logging.info(f"Component count: {components}")
