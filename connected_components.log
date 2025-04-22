@@ -501,3 +501,92 @@ Component Count Time: 1569.2ms
 2025-04-10 19:40:23,517 - INFO - Total Script Time: 2563.6ms
 2025-04-10 19:40:23,517 - INFO - ==================================================
 2025-04-10 19:45:49,490 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-11 09:51:17,267 - INFO - Reading graph from .\data\Graph_ganzganzgross.txt
+2025-04-11 09:51:22,685 - INFO - Read Graph Time: 5413.1ms
+2025-04-11 09:51:23,448 - INFO - Parsing Time: 6180.2ms
+2025-04-11 09:51:25,574 - INFO - Analysis Time: 2125.4ms
+2025-04-11 09:51:25,575 - INFO - Component count: 306
+2025-04-11 09:51:25,576 - INFO - Total Script Time: 8308.7ms
+2025-04-11 09:51:25,576 - INFO - ==================================================
+2025-04-11 09:51:56,421 - INFO - Loaded graph from cache
+2025-04-11 09:51:56,422 - INFO - Parsing Time: 589.3ms
+2025-04-11 09:51:57,556 - INFO - Analysis Time: 1133.8ms
+2025-04-11 09:51:57,557 - INFO - Component count: 306
+2025-04-11 09:51:57,557 - INFO - Total Script Time: 1724.3ms
+2025-04-11 09:51:57,557 - INFO - ==================================================
+2025-04-11 09:59:32,092 - INFO - Loaded graph from cache
+2025-04-11 09:59:32,092 - INFO - Parsing Time: 587.9ms
+2025-04-11 09:59:33,301 - INFO - Analysis Time: 1207.9ms
+2025-04-11 09:59:33,301 - INFO - Component count: 306
+2025-04-11 09:59:33,301 - INFO - Total Script Time: 1797.1ms
+2025-04-11 09:59:33,302 - INFO - ==================================================
+2025-04-11 10:05:24,738 - INFO - Loaded graph from cache
+2025-04-11 10:05:24,738 - INFO - Parsing Time: 621.9ms
+2025-04-11 10:05:25,970 - INFO - Analysis Time: 1231.4ms
+2025-04-11 10:05:25,971 - INFO - Component count: 306
+2025-04-11 10:05:25,971 - INFO - Total Script Time: 1854.3ms
+2025-04-11 10:05:25,971 - INFO - ==================================================
+2025-04-11 10:05:44,849 - INFO - Loaded graph from cache
+2025-04-11 10:05:44,850 - INFO - Loading Time: 574.7ms
+2025-04-11 10:05:45,984 - INFO - Analysis Time: 1134.2ms
+2025-04-11 10:05:45,985 - INFO - Component count: 306
+2025-04-11 10:05:45,985 - INFO - Total Script Time: 1710.3ms
+2025-04-11 10:05:45,986 - INFO - ==================================================
+2025-04-11 12:42:53,362 - INFO - Reading graph from ./data\Graph1.txt
+2025-04-11 12:42:53,375 - INFO - Serialized graph to ./data\Graph1.pkl
+2025-04-11 12:42:53,376 - INFO - Read Graph Time: 13.7ms
+2025-04-11 12:43:29,076 - INFO - Loaded graph from cache
+2025-04-11 12:45:03,521 - INFO - Loaded graph from cache
+2025-04-11 12:45:03,522 - INFO - Loading Time: 2.1ms
+2025-04-11 12:45:03,522 - INFO - Analysis Time: 0.1ms
+2025-04-11 12:45:03,523 - INFO - Component count: 2
+2025-04-11 12:45:03,523 - INFO - Total Script Time: 3.4ms
+2025-04-11 12:45:03,523 - INFO - ==================================================
+2025-04-11 12:46:24,108 - INFO - Loaded graph from cache
+2025-04-11 12:47:41,240 - INFO - Loaded graph from cache
+2025-04-11 12:52:13,549 - INFO - Loaded graph from cache
+2025-04-11 12:52:33,148 - INFO - Loaded graph from cache
+2025-04-11 12:53:16,626 - INFO - Loaded graph from cache
+2025-04-11 12:54:19,071 - INFO - Loaded graph from cache
+2025-04-11 12:55:14,604 - INFO - Loaded graph from cache
+2025-04-11 12:55:17,465 - INFO - Analysis Time: 0.5ms
+2025-04-11 12:59:21,535 - INFO - Loaded graph from cache
+2025-04-11 12:59:24,371 - INFO - Analysis Time: 1.9ms
+2025-04-11 13:00:50,817 - INFO - Loaded graph from cache
+2025-04-11 13:00:53,939 - INFO - Analysis Time: 6.1ms
+2025-04-11 13:00:58,364 - INFO - Loaded graph from cache
+2025-04-11 13:00:59,025 - INFO - Analysis Time: 1.3ms
+2025-04-11 13:01:04,260 - INFO - Loaded graph from cache
+2025-04-11 13:01:08,740 - INFO - Analysis Time: 216.5ms
+2025-04-11 13:01:13,513 - INFO - Loaded graph from cache
+2025-04-11 13:01:15,439 - INFO - Analysis Time: 750.4ms
+2025-04-11 13:01:17,627 - INFO - Loaded graph from cache
+2025-04-11 13:01:20,313 - INFO - Analysis Time: 1646.0ms
+2025-04-11 13:02:29,447 - INFO - Loaded graph from cache
+2025-04-11 13:02:29,447 - INFO - Loading Time: 607.3ms
+2025-04-11 13:02:30,603 - INFO - Analysis Time: 1155.5ms
+2025-04-11 13:02:30,604 - INFO - Component count: 306
+2025-04-11 13:02:30,604 - INFO - Total Script Time: 1764.1ms
+2025-04-11 13:02:30,604 - INFO - ==================================================
+2025-04-11 13:02:44,794 - INFO - Loaded graph from cache
+2025-04-11 13:02:44,795 - INFO - Loading Time: 566.7ms
+2025-04-11 13:02:45,940 - INFO - Analysis Time: 1144.8ms
+2025-04-11 13:02:45,941 - INFO - Component count: 306
+2025-04-11 13:02:45,941 - INFO - Total Script Time: 1712.9ms
+2025-04-11 13:02:45,941 - INFO - ==================================================
+2025-04-11 13:15:15,599 - INFO - Loaded graph from cache
+2025-04-11 13:15:15,600 - INFO - Analysis Time: 0.6ms
+2025-04-11 13:15:15,601 - INFO - Loaded graph from cache
+2025-04-11 13:15:15,602 - INFO - Analysis Time: 0.5ms
+2025-04-11 13:15:15,662 - INFO - Loaded graph from cache
+2025-04-11 13:15:15,762 - INFO - Analysis Time: 99.6ms
+2025-04-11 13:15:15,978 - INFO - Loaded graph from cache
+2025-04-11 13:15:16,400 - INFO - Analysis Time: 411.8ms
+2025-04-11 13:15:17,012 - INFO - Loaded graph from cache
+2025-04-11 13:15:18,234 - INFO - Analysis Time: 1179.2ms
+2025-04-11 13:15:29,711 - INFO - Loaded graph from cache
+2025-04-11 13:15:29,711 - INFO - Loading Time: 1.3ms
+2025-04-11 13:15:29,712 - INFO - Analysis Time: 0.7ms
+2025-04-11 13:15:29,713 - INFO - Component count: 4
+2025-04-11 13:15:29,713 - INFO - Total Script Time: 3.0ms
+2025-04-11 13:15:29,713 - INFO - ==================================================

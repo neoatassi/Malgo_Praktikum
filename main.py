@@ -58,7 +58,7 @@ def read_graph(file_path, use_cache=True):
     
     n = int(data[0])                     # First token is node count
     edges = data[1:]                     # Remaining tokens are edges
-    adjacency = [[] for _ in range(n)]   # Adjacency Matrix: Preallocate an empty list for each node
+    adjacency = [[] for _ in range(n)]   # Adjacency List: Preallocate an empty list for each node
     
     # Process edges in pairs (i, j)
     for k in range(0, len(edges), 2):
@@ -175,6 +175,42 @@ def count_components(adjacency, traversal):
     return components
 
 
+
+def run_tests(algorithm):
+    """Embedded test cases with assertions."""
+    test_cases = [
+        # Format: (graph_content, expected_components)
+        ("0", 0),  # Empty graph
+        ("1", 1),  # Single node
+        ("2", 2),  # Two disconnected nodes
+        ("2\n0 1", 1),  # Two connected nodes
+        ("8\n0 1\n0 2\n0 3\n1 2\n3 4\n4 5\n4 6\n5 6\n6 7", 1),  # Your example
+        ("8\n0 1\n2 3\n4 5\n6 7", 4),  # 4 components (similar to graph2.txt)
+    ]
+    
+    dir = ".\\data"
+    test_cases = [
+        #(os.path.join(dir, "Graph1.txt"), 1),
+        (os.path.join(dir, "Graph2.txt"), 4),
+        (os.path.join(dir, "Graph3.txt"), 4),
+        (os.path.join(dir, "Graph_gross.txt"), 222),
+        (os.path.join(dir, "Graph_ganzgross.txt"), 9560),
+        (os.path.join(dir, "Graph_ganzganzgross.txt"), 306)
+    ]
+    
+    for (graph, expected) in test_cases:
+        try:
+            adjacency = read_graph(graph)
+            result = count_components(adjacency, algorithm)
+            assert result == expected, \
+                f"Test {graph} failed: Expected {expected}, got {result}"
+            print(f"Test {graph} passed")
+        except:
+            print("Error")
+            return
+        
+    print("All tests passed!")
+
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python main.py <graph_file>")
@@ -193,6 +229,10 @@ if __name__ == "__main__":
                         action='store_false',
                         dest='use_cache',
                         help='Disable graph caching')
+    parser.add_argument('--test',
+                        action='store_false',
+                        dest='test',
+                        help='Run testing assertions for all graphs')
     
     args = parser.parse_args()
     
@@ -202,6 +242,10 @@ if __name__ == "__main__":
         'dfs': dfs
     }
     
+    if args.test:
+        print('Running tests...')
+        run_tests(algorithms[args.algorithm])
+        sys.exit(0)
     
     print(f"Counting connected components in {os.path.basename(args.input_file)} using {args.algorithm.upper()}")
     
@@ -210,7 +254,7 @@ if __name__ == "__main__":
     
     adjacency = read_graph(args.input_file, use_cache=args.use_cache)
     
-    output = f"Parsing Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
+    output = f"Loading Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
     print(output)
     logging.info(output)
     
