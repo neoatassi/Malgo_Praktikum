@@ -590,3 +590,67 @@ Component Count Time: 1569.2ms
 2025-04-11 13:15:29,713 - INFO - Component count: 4
 2025-04-11 13:15:29,713 - INFO - Total Script Time: 3.0ms
 2025-04-11 13:15:29,713 - INFO - ==================================================
+2025-04-22 14:42:14,826 - INFO - Loaded graph from cache
+2025-04-22 14:42:14,826 - INFO - Parsing Time: 0.6ms
+2025-04-22 14:42:33,907 - INFO - Loaded graph from cache
+2025-04-22 14:42:33,907 - INFO - Parsing Time: 9.1ms
+2025-04-22 14:42:33,908 - INFO - Analysis Time: 0.8ms
+2025-04-22 14:42:33,908 - INFO - Component count: 4
+2025-04-22 14:42:33,909 - INFO - Total Script Time: 10.6ms
+2025-04-22 14:42:33,909 - INFO - ==================================================
+2025-04-22 14:44:16,307 - INFO - Loaded graph from cache
+2025-04-22 14:44:16,308 - INFO - Parsing Time: 2.7ms
+2025-04-23 13:00:53,645 - INFO - Loaded graph from cache
+2025-04-23 13:00:53,646 - INFO - Parsing Time: 9.9ms
+2025-04-23 13:00:53,647 - INFO - Analysis Time: 0.8ms
+2025-04-23 13:00:53,647 - INFO - Component count: 4
+2025-04-23 13:00:53,648 - INFO - Total Script Time: 11.4ms
+2025-04-23 13:00:53,648 - INFO - ==================================================
+2025-04-23 13:01:12,886 - INFO - Loaded graph from cache
+2025-04-23 13:01:12,887 - INFO - Parsing Time: 1052.6ms
+2025-04-23 13:01:14,419 - INFO - Analysis Time: 1530.9ms
+2025-04-23 13:01:14,419 - INFO - Component count: 306
+2025-04-23 13:01:14,419 - INFO - Total Script Time: 2584.4ms
+2025-04-23 13:01:14,419 - INFO - ==================================================
+2025-04-23 13:06:13,566 - INFO - Loaded graph from cache
+2025-04-23 13:06:13,567 - INFO - Parsing Time: 1015.2ms
+2025-04-23 13:06:15,090 - INFO - Analysis Time: 1523.2ms
+2025-04-23 13:06:15,091 - INFO - Component count: 306
+2025-04-23 13:06:15,091 - INFO - Total Script Time: 2539.2ms
+2025-04-23 13:06:15,091 - INFO - ==================================================
+2025-04-23 13:06:30,400 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-23 13:06:30,407 - INFO - Read Graph Time: 7.2ms
+2025-04-23 13:06:30,408 - INFO - Parsing Time: 7.5ms
+2025-04-23 13:06:30,408 - INFO - Analysis Time: 0.0ms
+2025-04-23 13:06:30,408 - INFO - Component count: 2
+2025-04-23 13:06:30,408 - INFO - Total Script Time: 8.2ms
+2025-04-23 13:06:30,408 - INFO - ==================================================
+2025-04-23 16:43:01,658 - INFO - Reading graph from .\data\Graph_ganzganzgross.txt
+2025-04-23 16:43:07,718 - INFO - Read Graph Time: 6059.6ms
+2025-04-23 16:43:07,889 - INFO - Parsing Time: 6231.1ms
+2025-04-23 16:43:10,439 - INFO - Analysis Time: 2548.0ms
+2025-04-23 16:43:10,439 - INFO - Component count: 306
+2025-04-23 16:43:10,439 - INFO - Total Script Time: 8780.0ms
+2025-04-23 16:43:10,439 - INFO - ==================================================
+2025-04-23 16:43:18,660 - INFO - Loaded graph from cache
+2025-04-23 16:43:18,661 - INFO - Parsing Time: 711.4ms
+2025-04-23 16:45:11,430 - INFO - Reading graph from .\data\Graph_ganzganzgross.txt
+2025-04-23 16:45:18,555 - INFO - Serialized graph to .\data\Graph_ganzganzgross.pkl
+2025-04-23 16:45:18,556 - INFO - Read Graph Time: 7126.7ms
+2025-04-23 16:45:18,694 - INFO - Parsing Time: 7265.1ms
+2025-04-23 16:45:21,177 - INFO - Analysis Time: 2481.1ms
+2025-04-23 16:45:21,177 - INFO - Component count: 306
+2025-04-23 16:45:21,177 - INFO - Total Script Time: 9747.4ms
+2025-04-23 16:45:21,177 - INFO - ==================================================
+2025-04-23 16:45:30,306 - INFO - Loaded graph from cache
+2025-04-23 16:45:30,307 - INFO - Parsing Time: 1102.7ms
+2025-04-23 16:45:32,040 - INFO - Analysis Time: 1733.0ms
+2025-04-23 16:45:32,040 - INFO - Component count: 306
+2025-04-23 16:45:32,040 - INFO - Total Script Time: 2836.8ms
+2025-04-23 16:45:32,040 - INFO - ==================================================
+2025-04-23 16:46:18,133 - INFO - Loaded graph from cache
+2025-04-23 16:46:18,133 - INFO - Parsing Time: 1024.8ms
+2025-04-23 16:46:33,984 - INFO - Analysis Time: 15850.4ms
+2025-04-23 16:46:33,984 - INFO - Component count: 306
+2025-04-23 16:46:33,984 - INFO - Total Script Time: 16875.9ms
+2025-04-23 16:46:33,984 - INFO - ==================================================
