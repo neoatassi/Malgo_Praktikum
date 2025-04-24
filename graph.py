@@ -6,12 +6,16 @@ import pickle
 import sys
 import time
 from line_profiler import profile
+import heapq
 
 import numpy as np
 
+#from algorithms.connected_components import count_components
+from algorithms.mst import kruskal_mst, prim_mst
+from logger import log, setup_logger
 
 class Graph:
-    def __init__(self, directed=False, file_path=any, cached=bool):
+    def __init__(self, directed=False, file_path='data/Graph1.txt', cached=True):
         
         start_time = time.perf_counter()
         
@@ -22,30 +26,24 @@ class Graph:
         self.file_path = file_path
         self.cached = cached
         
-        self.pickle_path = os.path.splitext(file_path)[0] + ".pkl"
+        self.pickle_path = os.path.splitext(self.file_path)[0] + ".pkl"
         
         if self.cached and os.path.exists(self.pickle_path):
             self.deserialize_graph()
-        else:
-            
-            status = f"Reading graph from {self.file_path}"
-            print(status)
-            logging.info(status)
-            
-            self.read_graph()
+        else:    
+            self.build_graph()
             self.build_csr()
+            
             self.serialize_graph()
             
-        output = f"Parsing Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
+        output = f"Loading Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
         print(output)
         logging.info(output)
       
     # @profile   
-    def read_graph(self):
+    def build_graph(self):
         start_time = time.perf_counter()
-        status = f"Reading graph from {self.file_path}"
-        print(status)
-        logging.info(status)
+        log(f"Building graph from {self.file_path}")
         
         with open(self.file_path, 'r') as f:
             data = f.read().split()
@@ -79,10 +77,11 @@ class Graph:
             # self.adjacency[i].append((j, weight))
             # also vice versa since undirected
             # self.adjacency[j].append((i, weight))
+            
+        # Sort edge list for Kruskal's
+        # self.edge_list.sort(key=lambda x: x[2])
              
-        output = f"Read Graph Time: {(time.perf_counter() - start_time)*1000:.1f}ms"    
-        print(output)
-        logging.info(output)
+        log(f"Build Time: {(time.perf_counter() - start_time)*1000:.1f}ms")
         
         
     def build_csr(self):
@@ -108,6 +107,7 @@ class Graph:
     #         }, f)
     
     def serialize_graph(self):
+        log(f"Saving graph to {self.pickle_path}")
         with open(self.pickle_path, 'wb') as f:
             pickle.dump({
                 'node_count': self.node_count,
@@ -129,6 +129,7 @@ class Graph:
     
     def deserialize_graph(self):
         if os.path.exists(self.pickle_path):
+            log(f"Loading graph from {self.pickle_path}")
             with open(self.pickle_path, 'rb') as f:
                 data = pickle.load(f)
                 
@@ -151,14 +152,15 @@ class Graph:
         # add edge both ways if graph is not directed
         if not self.directed:
             self.adjacency[to_node].append((from_node, weight))
-            
-    # def remove_edge(self, from_node, to_node):
     
-    def get_neighbors(self, node):
+    def get_neighbors_csr(self, node):
         # this gets neighboring nodes from the CSR data structure
         start = self.indptr[node]
         end = self.indptr[node + 1]
         return self.indices[start:end], self.data[start:end]
+    
+    def get_edges(self):
+        return self.edge_list
     
     #@profile
     def bfs(self, adjacency, visited, start):
@@ -181,6 +183,24 @@ class Graph:
                 if not visited[neighbor]:
                     visited[neighbor] = True
                     queue.append(neighbor)
+    
+    def dfs(adjacency, visited, start):
+        """DFS traversal implementation"""
+        stack = [start]
+        visited[start] = True
+        while stack:
+            node = stack.pop()
+            
+            # Get neighbors from CSR
+            # start = self.indptr[node]
+            # end = self.indptr[node + 1]
+            # neighbors = self.indices[start:end]
+            
+            for neighbor in adjacency[node]:
+                neighbor = neighbor[0]  # Extract node from (node, weight)
+                if not visited[neighbor]:
+                    visited[neighbor] = True
+                    stack.append(neighbor)
                     
     def count_components(self, traversal):
         start_time = time.perf_counter()
@@ -200,6 +220,72 @@ class Graph:
         print(output)
         logging.info(output)
         return components  
+    
+    def prim_mst(self):
+        start_time = time.perf_counter()
+        visited = np.zeros(self.node_count, dtype=bool)
+        heap = []
+        mst_edges = []
+        mst_weight = np.int32()
+
+        # Start from node 0
+        heapq.heappush(heap, (0.0, 0, -1))  # (weight, node, parent)
+
+        while heap:
+            weight, node, parent = heapq.heappop(heap)
+            if not visited[node]:
+                visited[node] = True
+                if parent != -1:
+                    mst_edges.append((parent, node, weight))
+                    mst_weight += weight
+                
+                '''For the CSR data structure'''
+                # neighbors, weights = self.get_neighbors(node)
+                # for neighbor, w in zip(neighbors, weights):
+                #     if not visited[neighbor]:
+                #         heapq.heappush(heap, (w, neighbor, node))
+                
+                neighbors = self.adjacency[node]
+                for neighbor, weight in neighbors:
+                    if not visited[neighbor]:
+                        heapq.heappush(heap, (weight, neighbor, node))
+                        
+        run_time = f"Analysis Time: {(time.perf_counter() - start_time)*1000:.1f}ms"
+        return {"mst_edges": mst_edges, 
+                "weight": mst_weight.round(5),
+                "time": run_time }
+    
+    def kruskal_mst(self):
+        start_time = time.perf_counter()
+        
+        edge_list = self.get_edges()  # Pre-sorted edge list
+        parent = list(range(self.node_count))
+        mst_edges = []
+        mst_weight = np.int32()
+
+        def find(u):
+            """Find the root of node u with path compression."""
+            if parent[u] != u:
+                parent[u] = find(parent[u])
+            return parent[u]
+
+        def union(u, v):
+            """Merge the sets of u and v."""
+            root_u = find(u)
+            root_v = find(v)
+            if root_u != root_v:
+                parent[root_v] = root_u
+
+        for u, v, w in edge_list:
+            if find(u) != find(v):
+                mst_edges.append((u, v, w))
+                mst_weight += w
+                union(u, v)
+
+        run_time = f"Analysis Time: {(time.perf_counter() - start_time)*1000:.1f}ms"
+        return {"mst_edges": mst_edges, 
+                "weight": mst_weight.round(5),
+                "time": run_time }
         
 
 def bfs(adjacency, visited, start):
@@ -227,53 +313,23 @@ def dfs(adjacency, visited, start):
                 visited[neighbor] = True
                 stack.append(neighbor)
                 
-def count_components(graph, traversal):
-    start_time = time.perf_counter()
-    
-    # Component counter using specified traversal algorithm
-    n = len(graph.adjacency)
-    visited = np.zeros(graph.node_count, dtype=bool)
-    components = 0
-    
-    for u in range(graph.node_count):
-        if not visited[u]:
-            components += 1
-            traversal(graph.adjacency, visited, u)
-    
-    # output = f"Traversal completed using {traversal.__name__.upper()}"
-    output = f"Analysis Time: {(time.perf_counter() - start_time)*1000:.1f}ms"                    
-    print(output)
-    logging.info(output)
-    return components             
+# def count_components(graph, traversal):
+#     start_time = time.perf_counter()
+#     
+#     # Component counter using specified traversal algorithm
+#     n = len(graph.adjacency)
+#     visited = np.zeros(graph.node_count, dtype=bool)
+#     components = 0
+#     
+#     for u in range(graph.node_count):
+#         if not visited[u]:
+#             components += 1
+#             traversal(graph.adjacency, visited, u)
+#     
+#     # output = f"Traversal completed using {traversal.__name__.upper()}"
+#     output = f"Analysis Time: {(time.perf_counter() - start_time)*1000:.1f}ms"                    
+#     print(output)
+#     logging.info(output)
+#     return components             
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='P1: Connected Components')
-    parser.add_argument('input_file', help='Path to graph file')
-    parser.add_argument('-a', '--algorithm', 
-                        choices=['bfs', 'dfs'],
-                        default='bfs',
-                        help='Traversal algorithm (bfs|dfs)')
-    parser.add_argument('--no-cache', 
-                        action='store_false',
-                        dest='use_cache',
-                        help='Disable graph caching')
-    
-    args = parser.parse_args()
-    
-    g = Graph(file_path=args.input_file, cached=args.use_cache)
-    
-    # Map algorithm names to strategy functions
-    algorithms = {
-        'bfs': g.bfs,
-        'dfs': dfs
-    }
-    
-    #g = Graph(file_path=args.input_file, cached=args.use_cache)
-    
-    
-    components = count_components(g, algorithms[args.algorithm])
-    
-    print(f"Component count: {components}")
-    logging.info(f"Component count: {components}")
-    
-    # print(g)
+

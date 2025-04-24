@@ -654,3 +654,419 @@ Component Count Time: 1569.2ms
 2025-04-23 16:46:33,984 - INFO - Component count: 306
 2025-04-23 16:46:33,984 - INFO - Total Script Time: 16875.9ms
 2025-04-23 16:46:33,984 - INFO - ==================================================
+2025-04-24 20:07:23,860 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:07:23,860 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:10:23,886 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:10:23,886 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:10:48,576 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:10:48,577 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:10:48,577 - INFO - Read Graph Time: 0.4ms
+2025-04-24 20:10:48,578 - INFO - Parsing Time: 1.7ms
+2025-04-24 20:10:48,578 - INFO - Component count: 15
+2025-04-24 20:11:04,363 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:11:04,363 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:11:04,783 - INFO - Read Graph Time: 419.6ms
+2025-04-24 20:11:05,355 - INFO - Parsing Time: 992.4ms
+2025-04-24 20:12:49,811 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:12:49,811 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:12:49,812 - INFO - Read Graph Time: 0.4ms
+2025-04-24 20:12:49,812 - INFO - Parsing Time: 1.5ms
+2025-04-24 20:12:49,813 - INFO - Component count: 15
+2025-04-24 20:15:12,149 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:15:12,149 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:15:12,150 - INFO - Read Graph Time: 0.4ms
+2025-04-24 20:15:12,151 - INFO - Parsing Time: 1.7ms
+2025-04-24 20:16:23,564 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:16:23,564 - INFO - Reading graph from .\data\Graph1.txt
+2025-04-24 20:16:23,565 - INFO - Read Graph Time: 0.4ms
+2025-04-24 20:16:23,565 - INFO - Parsing Time: 1.5ms
+2025-04-24 20:18:42,198 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:18:42,198 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:18:42,571 - INFO - Read Graph Time: 372.7ms
+2025-04-24 20:18:43,096 - INFO - Parsing Time: 898.1ms
+2025-04-24 20:19:13,801 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:19:13,801 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:19:14,170 - INFO - Read Graph Time: 368.4ms
+2025-04-24 20:19:14,694 - INFO - Parsing Time: 893.8ms
+2025-04-24 20:19:36,567 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:19:36,567 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:19:36,926 - INFO - Read Graph Time: 359.2ms
+2025-04-24 20:19:37,458 - INFO - Parsing Time: 891.7ms
+2025-04-24 20:20:36,201 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:20:36,201 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:20:36,567 - INFO - Read Graph Time: 365.5ms
+2025-04-24 20:20:37,087 - INFO - Parsing Time: 885.5ms
+2025-04-24 20:20:52,499 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:20:52,499 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:20:52,852 - INFO - Read Graph Time: 353.1ms
+2025-04-24 20:20:53,366 - INFO - Parsing Time: 867.2ms
+2025-04-24 20:21:07,258 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:21:07,258 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:21:07,614 - INFO - Read Graph Time: 355.3ms
+2025-04-24 20:21:08,127 - INFO - Parsing Time: 867.5ms
+2025-04-24 20:23:15,309 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:23:15,309 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:23:15,685 - INFO - Read Graph Time: 376.0ms
+2025-04-24 20:23:16,203 - INFO - Parsing Time: 894.8ms
+2025-04-24 20:23:45,740 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:23:45,740 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:23:46,089 - INFO - Read Graph Time: 349.2ms
+2025-04-24 20:23:46,625 - INFO - Parsing Time: 885.9ms
+2025-04-24 20:23:54,958 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:23:54,958 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:23:55,320 - INFO - Read Graph Time: 361.6ms
+2025-04-24 20:23:55,838 - INFO - Parsing Time: 879.3ms
+2025-04-24 20:28:50,382 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:28:50,382 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:28:50,757 - INFO - Read Graph Time: 374.7ms
+2025-04-24 20:28:51,291 - INFO - Parsing Time: 909.1ms
+2025-04-24 20:29:22,241 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:29:22,241 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:29:22,602 - INFO - Read Graph Time: 360.4ms
+2025-04-24 20:29:23,134 - INFO - Parsing Time: 892.7ms
+2025-04-24 20:34:04,391 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:34:04,391 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:34:04,758 - INFO - Read Graph Time: 366.6ms
+2025-04-24 20:34:05,283 - INFO - Parsing Time: 891.9ms
+2025-04-24 20:34:36,181 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:34:36,181 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:34:36,612 - INFO - Read Graph Time: 431.0ms
+2025-04-24 20:34:37,160 - INFO - Parsing Time: 979.3ms
+2025-04-24 20:35:58,838 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:35:58,839 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:35:59,196 - INFO - Read Graph Time: 356.6ms
+2025-04-24 20:35:59,706 - INFO - Parsing Time: 867.5ms
+2025-04-24 20:36:25,520 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:36:25,521 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:36:25,943 - INFO - Read Graph Time: 422.1ms
+2025-04-24 20:36:26,498 - INFO - Parsing Time: 977.7ms
+2025-04-24 20:36:37,639 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:36:37,639 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:36:38,065 - INFO - Read Graph Time: 425.3ms
+2025-04-24 20:36:38,621 - INFO - Parsing Time: 982.5ms
+2025-04-24 20:38:36,859 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:38:36,860 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:38:37,271 - INFO - Read Graph Time: 411.1ms
+2025-04-24 20:38:37,815 - INFO - Parsing Time: 956.2ms
+2025-04-24 20:38:55,987 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:38:55,987 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:38:56,353 - INFO - Read Graph Time: 364.3ms
+2025-04-24 20:38:56,871 - INFO - Parsing Time: 883.2ms
+2025-04-24 20:40:44,580 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:40:44,581 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:40:44,939 - INFO - Read Graph Time: 358.8ms
+2025-04-24 20:40:45,450 - INFO - Parsing Time: 870.3ms
+2025-04-24 20:40:51,823 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:40:51,823 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:40:52,183 - INFO - Read Graph Time: 359.8ms
+2025-04-24 20:40:52,693 - INFO - Parsing Time: 870.5ms
+2025-04-24 20:41:06,827 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:41:06,827 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:41:07,187 - INFO - Read Graph Time: 360.3ms
+2025-04-24 20:41:07,701 - INFO - Parsing Time: 874.0ms
+2025-04-24 20:41:10,084 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:41:10,084 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:41:10,442 - INFO - Read Graph Time: 357.0ms
+2025-04-24 20:41:10,952 - INFO - Parsing Time: 867.9ms
+2025-04-24 20:41:13,820 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:41:13,821 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:41:14,175 - INFO - Read Graph Time: 354.8ms
+2025-04-24 20:41:14,708 - INFO - Parsing Time: 888.2ms
+2025-04-24 20:48:53,178 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:48:53,178 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:48:53,550 - INFO - Read Graph Time: 371.8ms
+2025-04-24 20:48:54,067 - INFO - Parsing Time: 889.0ms
+2025-04-24 20:48:54,411 - INFO - Total Weight: 27550.51488
+Analysis Time: Analysis Time: 342.7ms
+2025-04-24 20:50:29,664 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:50:29,665 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:50:30,042 - INFO - Read Graph Time: 377.0ms
+2025-04-24 20:50:30,597 - INFO - Parsing Time: 932.7ms
+2025-04-24 20:50:30,941 - INFO - Total Weight: 27550.51488
+Analysis Time: Analysis Time: 343.5ms
+2025-04-24 20:57:28,939 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:57:28,940 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:57:29,324 - INFO - Read Graph Time: 382.8ms
+2025-04-24 20:57:29,872 - INFO - Parsing Time: 932.0ms
+2025-04-24 20:57:30,255 - INFO - Total Weight: 27550.51488
+2025-04-24 20:57:30,255 - INFO - Analysis Time: Analysis Time: 381.6ms
+2025-04-24 20:58:14,289 - INFO - ==================================================
+2025-04-24 20:58:14,293 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:58:14,293 - INFO - Reading graph from .\data\G_100_200.txt
+2025-04-24 20:58:14,688 - INFO - Read Graph Time: 396.0ms
+2025-04-24 20:58:15,324 - INFO - Parsing Time: 1032.2ms
+2025-04-24 20:58:15,703 - INFO - Total Weight: 27550.51488
+2025-04-24 20:58:15,703 - INFO - Analysis Time: Analysis Time: 377.5ms
+2025-04-24 21:08:50,889 - INFO - ====================================================================================================
+2025-04-24 21:08:50,892 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:08:50,893 - INFO - Build Time: 0.7ms
+2025-04-24 21:08:50,893 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:08:50,894 - INFO - Parsing Time: 1.9ms
+2025-04-24 21:08:50,894 - INFO - CONNECTED COMPONENTS
+2025-04-24 21:08:50,895 - INFO - Component count: 2
+2025-04-24 21:10:01,331 - INFO - ====================================================================================================
+2025-04-24 21:10:01,336 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:10:01,337 - INFO - Build Time: 0.6ms
+2025-04-24 21:10:01,337 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:10:01,338 - INFO - Parsing Time: 1.8ms
+2025-04-24 21:10:01,338 - INFO - Finding connected components using BFS
+2025-04-24 21:10:01,338 - INFO - Component count: 2
+2025-04-24 21:10:30,806 - INFO - ====================================================================================================
+2025-04-24 21:10:30,809 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:10:30,809 - INFO - Build Time: 0.6ms
+2025-04-24 21:10:30,810 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:10:30,810 - INFO - Parsing Time: 1.5ms
+2025-04-24 21:10:30,811 - INFO - Running BFS
+2025-04-24 21:10:30,811 - INFO - Component count: 2
+2025-04-24 21:10:39,777 - INFO - ====================================================================================================
+2025-04-24 21:10:39,780 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:10:39,781 - INFO - Build Time: 0.5ms
+2025-04-24 21:10:39,781 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:10:39,782 - INFO - Parsing Time: 1.4ms
+2025-04-24 21:10:39,782 - INFO - Running BFS...
+2025-04-24 21:10:39,782 - INFO - Component count: 2
+2025-04-24 21:11:11,705 - INFO - ====================================================================================================
+2025-04-24 21:11:11,708 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:11:11,709 - INFO - Build Time: 0.6ms
+2025-04-24 21:11:11,709 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:11:11,710 - INFO - Parsing Time: 1.5ms
+2025-04-24 21:11:11,710 - INFO - Running COMPONENT COUNT using BFS...
+2025-04-24 21:11:11,710 - INFO - Component count: 2
+2025-04-24 21:12:29,878 - INFO - ====================================================================================================
+2025-04-24 21:12:29,881 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:12:29,882 - INFO - Build Time: 0.6ms
+2025-04-24 21:12:29,882 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:12:29,883 - INFO - Parsing Time: 1.8ms
+2025-04-24 21:12:29,883 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:13:07,814 - INFO - ====================================================================================================
+2025-04-24 21:13:07,817 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:13:07,818 - INFO - Build Time: 0.6ms
+2025-04-24 21:13:07,818 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:13:07,819 - INFO - Parsing Time: 1.6ms
+2025-04-24 21:13:07,819 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:13:33,338 - INFO - ====================================================================================================
+2025-04-24 21:13:33,341 - INFO - Building graph from .\data\G_100_200.txt
+2025-04-24 21:13:33,722 - INFO - Build Time: 381.6ms
+2025-04-24 21:13:33,973 - INFO - Saving graph to .\data\G_100_200.pkl
+2025-04-24 21:13:34,259 - INFO - Parsing Time: 917.9ms
+2025-04-24 21:13:34,613 - INFO - Total Weight: 27550.51488
+2025-04-24 21:13:34,613 - INFO - Analysis Time: Analysis Time: 353.3ms
+2025-04-24 21:13:49,966 - INFO - ====================================================================================================
+2025-04-24 21:13:49,969 - INFO - Building graph from .\data\G_100_200.txt
+2025-04-24 21:13:50,338 - INFO - Build Time: 368.5ms
+2025-04-24 21:13:50,591 - INFO - Saving graph to .\data\G_100_200.pkl
+2025-04-24 21:13:50,869 - INFO - Parsing Time: 899.6ms
+2025-04-24 21:13:51,218 - INFO - Total Weight: 27550.51488
+2025-04-24 21:13:51,218 - INFO - Analysis Time: Analysis Time: 347.7ms
+2025-04-24 21:13:52,739 - INFO - ====================================================================================================
+2025-04-24 21:13:52,742 - INFO - Building graph from .\data\Graph1.txt
+2025-04-24 21:13:52,743 - INFO - Build Time: 0.6ms
+2025-04-24 21:13:52,743 - INFO - Saving graph to .\data\Graph1.pkl
+2025-04-24 21:13:52,744 - INFO - Parsing Time: 1.8ms
+2025-04-24 21:13:52,744 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:13:52,744 - INFO - Analysis Time: 0.1ms
+2025-04-24 21:13:52,745 - INFO - Component count: 2
+2025-04-24 21:14:40,995 - INFO - ====================================================================================================
+2025-04-24 21:14:40,998 - INFO - Building graph from .\data\Graph_ganzganzgross.txt
+2025-04-24 21:14:48,831 - INFO - Build Time: 7832.3ms
+2025-04-24 21:14:55,167 - INFO - Saving graph to .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:15:01,339 - INFO - Parsing Time: 20341.0ms
+2025-04-24 21:15:01,340 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:15:05,228 - INFO - Analysis Time: 3888.2ms
+2025-04-24 21:15:05,229 - INFO - Component count: 306
+2025-04-24 21:15:09,480 - INFO - ====================================================================================================
+2025-04-24 21:15:09,484 - INFO - Building graph from .\data\Graph_ganzganzgross.txt
+2025-04-24 21:15:17,008 - INFO - Build Time: 7525.3ms
+2025-04-24 21:15:23,297 - INFO - Saving graph to .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:15:29,503 - INFO - Parsing Time: 20018.8ms
+2025-04-24 21:15:29,503 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:15:33,468 - INFO - Analysis Time: 3964.9ms
+2025-04-24 21:15:33,468 - INFO - Component count: 306
+2025-04-24 21:18:01,677 - INFO - ====================================================================================================
+2025-04-24 21:18:01,681 - INFO - Building graph from .\data\Graph_ganzganzgross.txt
+2025-04-24 21:18:09,705 - INFO - Build Time: 8025.2ms
+2025-04-24 21:18:16,526 - INFO - Saving graph to .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:18:23,121 - INFO - Parsing Time: 21440.3ms
+2025-04-24 21:18:23,121 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:18:27,209 - INFO - Analysis Time: 4087.4ms
+2025-04-24 21:18:27,210 - INFO - Component count: 306
+2025-04-24 21:19:33,940 - INFO - ====================================================================================================
+2025-04-24 21:19:33,944 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:19:37,983 - INFO - Parsing Time: 4038.3ms
+2025-04-24 21:19:37,983 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:19:41,842 - INFO - Analysis Time: 3858.5ms
+2025-04-24 21:19:41,842 - INFO - Component count: 306
+2025-04-24 21:19:55,348 - INFO - ====================================================================================================
+2025-04-24 21:19:55,351 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:19:59,402 - INFO - Parsing Time: 4051.4ms
+2025-04-24 21:19:59,403 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:19:59,592 - INFO - Analysis Time: 188.8ms
+2025-04-24 21:19:59,592 - INFO - Component count: 1000000
+2025-04-24 21:20:51,916 - INFO - ====================================================================================================
+2025-04-24 21:20:51,920 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:20:55,905 - INFO - Parsing Time: 3985.8ms
+2025-04-24 21:20:55,906 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:21:33,758 - INFO - ====================================================================================================
+2025-04-24 21:21:33,761 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:21:37,741 - INFO - Parsing Time: 3979.3ms
+2025-04-24 21:21:37,741 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:21:46,496 - INFO - ====================================================================================================
+2025-04-24 21:21:46,500 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:21:50,492 - INFO - Parsing Time: 3992.0ms
+2025-04-24 21:21:50,492 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:21:52,372 - INFO - Analysis Time: 1879.7ms
+2025-04-24 21:21:52,372 - INFO - Component count: 306
+2025-04-24 21:21:55,342 - INFO - ====================================================================================================
+2025-04-24 21:21:55,345 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:21:59,419 - INFO - Parsing Time: 4073.9ms
+2025-04-24 21:21:59,419 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:22:01,432 - INFO - Analysis Time: 2012.5ms
+2025-04-24 21:22:01,432 - INFO - Component count: 306
+2025-04-24 21:22:04,556 - INFO - ====================================================================================================
+2025-04-24 21:22:04,560 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:22:08,608 - INFO - Parsing Time: 4048.8ms
+2025-04-24 21:22:08,608 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:22:10,547 - INFO - Analysis Time: 1938.3ms
+2025-04-24 21:22:10,548 - INFO - Component count: 306
+2025-04-24 21:22:19,189 - INFO - ====================================================================================================
+2025-04-24 21:22:19,192 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:22:23,173 - INFO - Parsing Time: 3980.4ms
+2025-04-24 21:22:23,173 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:22:27,201 - INFO - Analysis Time: 4028.3ms
+2025-04-24 21:22:27,202 - INFO - Component count: 306
+2025-04-24 21:22:37,545 - INFO - ====================================================================================================
+2025-04-24 21:22:37,548 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:22:41,511 - INFO - Parsing Time: 3963.3ms
+2025-04-24 21:22:41,512 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:22:45,378 - INFO - Analysis Time: 3865.7ms
+2025-04-24 21:22:45,378 - INFO - Component count: 306
+2025-04-24 21:25:30,030 - INFO - ====================================================================================================
+2025-04-24 21:25:30,033 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:25:34,045 - INFO - Parsing Time: 4011.8ms
+2025-04-24 21:25:34,046 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:27:02,905 - INFO - ====================================================================================================
+2025-04-24 21:27:02,908 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:27:07,001 - INFO - Parsing Time: 4092.7ms
+2025-04-24 21:27:07,001 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:27:08,918 - INFO - Analysis Time: 1916.8ms
+2025-04-24 21:27:08,919 - INFO - Component count: 306
+2025-04-24 21:29:32,709 - INFO - ====================================================================================================
+2025-04-24 21:29:32,713 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:29:36,751 - INFO - Parsing Time: 4038.2ms
+2025-04-24 21:29:36,751 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:29:38,790 - INFO - Analysis Time: 2037.9ms
+2025-04-24 21:29:38,790 - INFO - Component count: 306
+2025-04-24 21:29:41,945 - INFO - ====================================================================================================
+2025-04-24 21:29:41,949 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:29:45,964 - INFO - Parsing Time: 4014.9ms
+2025-04-24 21:29:45,965 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:29:47,856 - INFO - Analysis Time: 1891.4ms
+2025-04-24 21:29:47,857 - INFO - Component count: 306
+2025-04-24 21:30:01,694 - INFO - ====================================================================================================
+2025-04-24 21:30:01,698 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:30:05,731 - INFO - Parsing Time: 4032.4ms
+2025-04-24 21:30:05,731 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:30:07,800 - INFO - Analysis Time: 2069.9ms
+2025-04-24 21:30:07,801 - INFO - Component count: 306
+2025-04-24 21:30:13,102 - INFO - ====================================================================================================
+2025-04-24 21:30:13,105 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:30:17,139 - INFO - Parsing Time: 4032.8ms
+2025-04-24 21:30:17,139 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:30:19,089 - INFO - Analysis Time: 1949.5ms
+2025-04-24 21:30:19,089 - INFO - Component count: 306
+2025-04-24 21:30:42,379 - INFO - ====================================================================================================
+2025-04-24 21:30:42,383 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:30:46,446 - INFO - Parsing Time: 4063.2ms
+2025-04-24 21:30:46,446 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:30:48,398 - INFO - Analysis Time: 1952.0ms
+2025-04-24 21:30:48,399 - INFO - Component count: 306
+2025-04-24 21:30:52,782 - INFO - ====================================================================================================
+2025-04-24 21:30:52,785 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:30:56,825 - INFO - Parsing Time: 4040.8ms
+2025-04-24 21:30:56,826 - INFO - Running COMPONENT COUNT using DFS ...
+2025-04-24 21:30:58,679 - INFO - Analysis Time: 1852.6ms
+2025-04-24 21:30:58,680 - INFO - Component count: 306
+2025-04-24 21:32:21,045 - INFO - ====================================================================================================
+2025-04-24 21:32:21,049 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:32:25,045 - INFO - Loading Time: 3995.9ms
+2025-04-24 21:32:25,045 - INFO - Running COMPONENT COUNT using DFS ...
+2025-04-24 21:32:26,987 - INFO - Analysis Time: 1940.9ms
+2025-04-24 21:32:26,987 - INFO - Component count: 306
+2025-04-24 21:32:36,477 - INFO - ====================================================================================================
+2025-04-24 21:32:36,480 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 21:32:36,717 - INFO - Loading Time: 236.7ms
+2025-04-24 21:32:37,058 - INFO - Total Weight: 27550.51488
+2025-04-24 21:32:37,058 - INFO - Analysis Time: Analysis Time: 339.6ms
+2025-04-24 21:34:15,797 - INFO - ====================================================================================================
+2025-04-24 21:34:15,800 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 21:34:16,022 - INFO - Loading Time: 221.6ms
+2025-04-24 21:34:16,394 - INFO - Analysis Time: Analysis Time: 371.5ms
+2025-04-24 21:34:16,394 - INFO - Total Weight: 27550.51488
+2025-04-24 21:34:46,064 - INFO - ====================================================================================================
+2025-04-24 21:34:46,067 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 21:34:46,296 - INFO - Loading Time: 228.2ms
+2025-04-24 21:34:46,637 - INFO - Total Weight: 27550.51488
+2025-04-24 21:36:24,551 - INFO - ====================================================================================================
+2025-04-24 21:36:24,554 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 21:36:24,782 - INFO - Loading Time: 227.4ms
+2025-04-24 21:36:40,181 - INFO - ====================================================================================================
+2025-04-24 21:36:40,184 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 21:36:40,414 - INFO - Loading Time: 229.6ms
+2025-04-24 21:36:40,755 - INFO - Total Weight: 27550.51488
+2025-04-24 21:36:44,187 - INFO - ====================================================================================================
+2025-04-24 21:36:44,191 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:36:48,225 - INFO - Loading Time: 4034.0ms
+2025-04-24 21:36:48,225 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:38:55,928 - INFO - ====================================================================================================
+2025-04-24 21:38:55,931 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:39:00,153 - INFO - Loading Time: 4221.6ms
+2025-04-24 21:39:00,153 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:39:54,191 - INFO - ====================================================================================================
+2025-04-24 21:39:54,194 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:39:58,178 - INFO - Loading Time: 3982.8ms
+2025-04-24 21:39:58,178 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:40:01,889 - INFO - Analysis Time: 3710.9ms
+2025-04-24 21:40:01,890 - INFO - Component count: 306
+2025-04-24 21:44:33,229 - INFO - ====================================================================================================
+2025-04-24 21:44:33,233 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:44:37,210 - INFO - Loading Time: 3976.6ms
+2025-04-24 21:44:37,210 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:45:11,884 - INFO - ====================================================================================================
+2025-04-24 21:45:11,887 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:45:15,919 - INFO - Loading Time: 4031.4ms
+2025-04-24 21:45:15,919 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:45:18,062 - INFO - Analysis Time: 2142.2ms
+2025-04-24 21:45:18,063 - INFO - Component count: 306
+2025-04-24 21:46:06,761 - INFO - ====================================================================================================
+2025-04-24 21:46:06,764 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:46:10,759 - INFO - Loading Time: 3994.7ms
+2025-04-24 21:46:10,759 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:46:12,414 - INFO - Analysis Time: 1654.8ms
+2025-04-24 21:46:12,415 - INFO - Component count: 306
+2025-04-24 21:46:34,279 - INFO - ====================================================================================================
+2025-04-24 21:46:34,282 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:46:38,318 - INFO - Loading Time: 4034.9ms
+2025-04-24 21:46:38,318 - INFO - Running COMPONENT COUNT using BFS ...
+2025-04-24 21:46:40,020 - INFO - Analysis Time: 1702.3ms
+2025-04-24 21:46:40,021 - INFO - Component count: 306
+2025-04-24 21:47:22,510 - INFO - ====================================================================================================
+2025-04-24 21:47:22,513 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 21:47:26,499 - INFO - Loading Time: 3985.4ms
+2025-04-24 21:47:26,499 - INFO - Running COMPONENT COUNT using DFS ...
+2025-04-24 21:47:28,151 - INFO - Analysis Time: 1651.4ms
+2025-04-24 21:47:28,152 - INFO - Component count: 306
+2025-04-24 21:54:18,751 - INFO - ====================================================================================================
+2025-04-24 22:02:03,844 - INFO - ====================================================================================================
+2025-04-24 22:02:03,847 - INFO - Loading graph from .\data\Graph_ganzganzgross.pkl
+2025-04-24 22:02:07,994 - INFO - Loading Time: 4147.5ms
+2025-04-24 22:02:07,994 - INFO - Running COMPONENT COUNT using DFS ...
+2025-04-24 22:02:09,754 - INFO - Analysis Time: 1759.3ms
+2025-04-24 22:02:09,755 - INFO - Component count: 306
+2025-04-24 22:02:14,017 - INFO - ====================================================================================================
+2025-04-24 22:02:14,020 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 22:02:14,251 - INFO - Loading Time: 231.1ms
+2025-04-24 22:02:14,628 - INFO - Total Weight: 27550.51488
+2025-04-24 22:03:31,900 - INFO - ====================================================================================================
+2025-04-24 22:03:31,905 - INFO - Loading graph from .\data\G_100_200.pkl
+2025-04-24 22:03:32,163 - INFO - Loading Time: 258.4ms
+2025-04-24 22:03:32,493 - INFO - Total Weight: 27550.51488
